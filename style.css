@@ -17,32 +17,25 @@ body{
 .icon{
     color:white;
 }
+#pf{
+
+}
+/*
 #main{
 	
 	display:flex;
-}
+}*/
 #mainone{
-	margin-left:280px;
-}
-#menu{
-    padding: 22px;
-    margin-bottom: 30px;
+    background-color:#000000;
     color:white;
-    font-size: 25px;
+	margin-left:125px;
 }
-#menu:hover{
-    height:26px;
-    width:26px;
-    cursor:pointer;
-    border-radius: 360px;
-    background-color: #000000;
-}
+
 nav.content{
-    border-right: #000000 solid 3px;
     background-color: #2a2a2a;
     height: 900vh;
     position: fixed;
-    width: 60px;
+    width: 125px;
     overflow:hidden;
 }
 /*Estilizacao da fonte*/
@@ -52,10 +45,7 @@ nav.content{
     font-weight: 360;
     font-style: normal;
   }
-nav.content.expandir{ 
-    width:280px;
 
-}
 ul{
 margin-top: 20px;
     list-style: none;

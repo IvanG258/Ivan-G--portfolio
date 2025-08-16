@@ -1,4 +1,5 @@
-var menu = document.querySelectorAll('.item')
+
+/*var menu = document.querySelectorAll('.item')
 
 function selecao(){
     menu.forEach((item)=>item.classList.remove('activo')) 
@@ -13,3 +14,4 @@ var menubtn= document.querySelector('.content')
 expand.addEventListener('click', function(){
     menubtn.classList.toggle('expandir')
 })
+*/
