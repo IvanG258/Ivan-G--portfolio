@@ -9,7 +9,7 @@ box-sizing:border-box;
 body{
 
     height:100vh;
-    width:100vw;
+    width:900vw;
 }
 .icone{
     padding-top: 20px;
@@ -17,20 +17,14 @@ body{
 .icon{
     color:white;
 }
-#pf{
-    height:150px;
-    width:125px;
 
-}
-/*
-#main{
-	
-	display:flex;
-}*/
 #mainone{
     background-color:#000000;
-    color:white;
+    color:rgb(185, 19, 19);
 	margin-left:125px;
+    margin-right:40px;
+  /*  align-items: center;
+    text-align: center;*/
 }
 
 nav.content{
@@ -42,40 +36,52 @@ nav.content{
 }
 /*Estilizacao da fonte*/
 .content{
-    font-family: "Roboto Mono", monospace;
+    font-family: "monteserrat", monospace;
     font-optical-sizing: auto;
     font-weight: 360;
     font-style: normal;
   }
-
-ul{
-margin-top: 20px;
-    list-style: none;
-}
-ul li.item{
-    transition: .2s;
-}
-ul li.item a{
-    height:60px;
-    padding-left:25px ;
-    color:white;
-    font-size: 20px;
-line-height: 40px;
-display:flex;
-}
-ul li.activo{
+/*-------nav----------*/
+.active{
     background-color: #000000;
 }
-.Name{
-    padding-left: 20px;
+.navel.active:hover{
+    background-color:#2a2a2a;
 }
-ul li.item a:hover{
-    height: 40px;
+.navel{
+    align-items: center;
+    justify-content: center;
+    display:inline-flex;
+    height:100px;
+    width:125px;
+    color:white;
+    font-size: 15px;
+transition:2s;
+}
+.icon{
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+/*-------nav-----------*/
+
+ .navel:hover{
      background-color:#000000;
 }
 
 a{
+    color :white;
     text-decoration: none;
+}
+/*----------tools----------*/
+.tools{
+    height:200px;
+    width: 800px;
+    background-color: #2a2c2c;
+}
+img.tools{
+    height:30px;
+    width:30px;
 }
 /*-----------------footer-----------------*/
 footer{
@@ -83,5 +89,7 @@ footer{
     background-color:#2a2c2c;
 width:100vw;
 }
-
+.linha-terra{
+    width: 300px;
+}
 /*----------------- end of footer-----------------*/
