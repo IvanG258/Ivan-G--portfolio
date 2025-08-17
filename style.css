@@ -18,6 +18,8 @@ body{
     color:white;
 }
 #pf{
+    height:150px;
+    width:125px;
 
 }
 /*
@@ -50,11 +52,11 @@ ul{
 margin-top: 20px;
     list-style: none;
 }
-ul li.item a{
+ul li.item{
     transition: .2s;
 }
 ul li.item a{
-    margin-bottom: 30px;
+    height:60px;
     padding-left:25px ;
     color:white;
     font-size: 20px;
@@ -70,10 +72,6 @@ ul li.activo{
 ul li.item a:hover{
     height: 40px;
      background-color:#000000;
-}
-#abi{
-    padding-left: 6px;
-
 }
 
 a{
