@@ -21,44 +21,48 @@
 <div id="main">
     <aside>
   <nav class="content">
-          <span class="navel active"> <a href="#"> 
+          <span class="navel active"> <a href="#header"> 
                 <i class="bi bi-house icon"></i>
             <p class="Name">Home</p>
             </a></span>
-           <span class="navel"><a  href="#"> 
+           <span class="navel"><a  href="#about"> 
                <i class="fa-solid fa-info icon"></i> 
             <p  class="Name">About</p>
             </a></span>
-          <span class="navel"> <a href="#"> 
+          <span class="navel"> <a href="#skills"> 
                <i class="bi bi-lightbulb icon"></i> 
             <p class="Name">Skills</p>
             </a></span>
                <span class="navel">
-          <a href="#">  
+          <a href="#projects">  
                 <i class="bi bi-card-checklist icon"></i>
             <p class="Name">Projects</p>
             </a> </span>
-           <span class="navel"><a  href="#"> 
+           <span class="navel"><a  href="#certifications"> 
                 <i class="bi bi-file-earmark-check icon"></i>
                 </p> 
             <p class="Name">Certifications</p>
             </a></span> 
-           <span class="navel"><a  href="#"> 
+           <span class="navel"><a  href="#contact"> 
                 <i class="fa-regular fa-address-card icon"></i>
             <p class="Name">Contacto</p></a> </span>
         </nav>
       </aside>
 		<div id="mainone">
 	<!--Header-->
-		<header id="">
-		
-		</header>
+		<header id="header">
+<p class="header-txt">I'm Ivan Guitimela</p>
+<p class="role">Software Developer<p>		
+</header>
 		<!-- end of header-->
 		
 		<!--Main content-->
+    <div id="geral">
 		<main id="main">
 		  <!--About-->
 		 <section id="about">
+<P class="myname">Ivan Guitimela</P>
+<hr class="linha-terra">
 		 <p>Desenvolvedor de software, com excelentes habilidades para desenvolvimento de aplicacoes web e mobile, possuo tambem conhecimentos solidos sobre analise de dados, tenho paixao por desenvolver interfaces bonitas, intuitivas e favoraveis aos usuarios.
 		 Gosto de resolver problemas com uso de tecnologia, desde os mais simples aos mais complexos, tenho excelentes habilidades tanto no frontend como no backend,  mas tenho maior inclinacao para o frontend.
 	  sou tambem um bom analista de dados, sem mais delongas deixo que os meus projectos falem por si abaixo.</p>
@@ -148,19 +152,29 @@
 			
 		<!--Footer-->
 		<footer id="contact">
+
+      <p class="cntt-txt">Contacte-me</p>
+      <hr class="linha-terra">
+      <span class="contact-cont">
+        <p class="cntt-p"> Maputo, Mozambique</p>
+        <p class="cntt-p">Phone: +258 820923051</p>
+        <p class="cntt-p">Email:Ivanguitimelaw@gmail.com</p>
+      <p class="cntt-p label">Let's get in touch.Send me a message:</p>
+      </span>
            <form class="contact" action="" method="get">
-       <label for="">  <input type="text"><br></label>
-       <label for="">  <input type="text"><br></label>
-       <label for="">  <input type="text"><br></label>
-       <label for="">  <input type="text"><br></label>
-        <textarea name="" id="cont-txt">
+        <input class="cnt-input" type="text" placeholder="Name"><br>
+         <input class="cnt-input" type="text" placeholder="Email"><br>
+         <input class="cnt-input" type="text" placeholder="Subject"><br>
+        <textarea class="cnt-input" name="message" id="cont-txt">
         </textarea>
+        <input id="btn-submit" type="submit" value="SEND MESSAGE">
            </form>
 		
         <hr class="linha-terra">
 		<span id="foot-txt"> Ivan Guitimela &copy All rights reserved 2025.</span>
 		</footer>
 		<!-- end of Footer-->
+  </div>
 		</div>
 		</div>
      <script src="script.js"></script>
