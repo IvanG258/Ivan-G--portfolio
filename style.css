@@ -69,6 +69,15 @@ a{
     justify-content: center;
     text-align: center;
 }
+/*------------Skills---------*/
+.w3-white{
+	background-color:white;
+	width:950px;
+	height:30px;
+}
+.dark-grey{
+	background-color:darkgrey;
+}
 /*----------tools----------*/
 ul.tools{
     display:grid;
