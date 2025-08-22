@@ -83,6 +83,7 @@ a{
     justify-content: center;
     text-align: center;
 }
+<<<<<<< HEAD
 .pic-p{
     max-height:700px;
     max-width:700px;
@@ -98,6 +99,17 @@ a{
 }
 /*-------------------Certifications----------*/
 
+=======
+/*------------Skills---------*/
+.w3-white{
+	background-color:white;
+	width:950px;
+	height:30px;
+}
+.dark-grey{
+	background-color:darkgrey;
+}
+>>>>>>> 380858a35987bd79216e2837dd7d4a24d199508d
 /*----------tools----------*/
 ul.tools{
     display:grid;
@@ -153,6 +165,7 @@ footer{
    max-height: 40px;
     max-width: 200px;
 }
+<<<<<<< HEAD
 .cntt-p,#footer-txt{
     display:flex;
     padding: 15px;
@@ -179,3 +192,6 @@ font-size:20px;
 /*-------form------*/
 
 /*----------------- end of footer-----------------*/
+=======
+/*----------------- end of footer-----------------*/
+>>>>>>> 380858a35987bd79216e2837dd7d4a24d199508d
