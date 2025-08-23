@@ -78,16 +78,14 @@ a{
     font-size:18px;
 }
 #header{
-    
-        height: 1500px;
     justify-content: center;
     text-align: center;
 }
-
+/***************FOTOGRAFIA*********
 .pic-p{
     max-height:700px;
     max-width:700px;
-}
+}*/
 /*----------------About--------*/
 .about-txt{
     color:#565352;
@@ -95,16 +93,19 @@ a{
 }
 .linha-terra.fst{
     margin:15px 0px 15px 0px;
-   
 }
 /*-------------------Certifications----------*/
 
 
 /*------------Skills---------*/
+.w3-wide{
+    margin-bottom:15px;
+}
 .w3-white{
 	background-color:white;
 	width:950px;
 	height:40px;
+    margin-bottom:15px;
 }
 .dark-grey{
 	background-color:darkgrey;
@@ -138,6 +139,11 @@ img.tools{
 img.tools:hover{
     transition:2s;
     transform:rotatey(360deg);
+}
+/****Certifications****/
+#certifications{
+    display:flex;
+    
 }
 /*--------main---------*/
 
