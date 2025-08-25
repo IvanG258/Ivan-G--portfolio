@@ -27,6 +27,7 @@ nav.content{
 }
 /*------------section costumization---------*/
 .section-txt{
+    font-size:25px;
     padding-top:100px;
 }
 /*Estilizacao da fonte*/
@@ -71,11 +72,11 @@ a{
 }
 /*---------header--------*/
 .header-txt{
-    font-size:25px;
+    font-size:35px;
      padding-top:85px;
 }
 .role{
-    font-size:18px;
+    font-size:23px;
 }
 #header{
     justify-content: center;
@@ -108,7 +109,7 @@ a{
     margin-bottom:15px;
 }
 .dark-grey{
-	background-color:darkgrey;
+	background-color:#616161;
     width:900px;
 	height:40px;
 
@@ -143,7 +144,6 @@ img.tools:hover{
 /****Certifications****/
 #certifications{
     display:flex;
-    
 }
 /*--------main---------*/
 
