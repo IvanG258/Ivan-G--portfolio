@@ -96,8 +96,20 @@ a{
     margin:15px 0px 15px 0px;
 }
 .Resumo{
+    color:#000000;
+    align-items: center;
     width:950px;
+    height:80px;
+    display:flex;
+    background-color: aliceblue;
+    justify-content:space-around;
 }
+.btn-resume{
+    margin-top:16px;
+   height: 40px;
+    width: 200px;
+}
+
 /*-------------------Certifications----------*/
 
 
