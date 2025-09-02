@@ -9,8 +9,15 @@ menu.forEach((item)=>
     item.addEventListener('click',selecao))
 
 /*------------Estilizacao do slider---------*/
-const Btnprev=document.getElementbyId();
-const Btnnext=document.getElementbyId();
+const Btnprev=document.getElementbyId('prevSlide');
+const Btnnext=document.getElementbyId('nextSlide');
+const container= document.querySelector('.container')
+const {width: containerWidth}=window.getComputedStyle(container)
+
+const slideProps ={
+    width:parseInt(containerWidth),
+    scroll:0,
+}
 
 function setCurrentDot(){
     const dots=document.querySelectorAll('.dot')

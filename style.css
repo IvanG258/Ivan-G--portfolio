@@ -175,6 +175,14 @@ img.tools:hover{
     width:600px;
 
 }
+/*----------Buttons--------*/
+.prev-next{
+    position: absolute;
+    background-color:yellow;
+height:40px;
+width:50px;
+border-radius:180deg;
+}
 /*--------main---------*/
 
 #mainone{
