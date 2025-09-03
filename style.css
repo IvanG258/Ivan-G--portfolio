@@ -177,11 +177,14 @@ img.tools:hover{
 }
 /*----------Buttons--------*/
 .prev-next{
-    position: absolute;
-    background-color:yellow;
-height:40px;
+    background-color:white;
+height:50px;
 width:50px;
-border-radius:180deg;
+border-radius:50%;
+}
+.btn-icon{
+    height:20px;
+    width:20px;
 }
 /*--------main---------*/
 
@@ -202,7 +205,7 @@ margin:0px 125px 0px 125px;
 }
 .cnt-input{
     margin-bottom: 15px;
-    height: 50px;
+    height: 60px;
     width: 950px;
 }
 .cnt-input::placeholder{
@@ -210,12 +213,16 @@ margin:0px 125px 0px 125px;
     font-optical-sizing: auto;
     font-weight: 360;
     font-style: normal;
+    padding-left:10px;
+    font-size: 16px;
+    color:#2c2c2c;
 }
 /*-------estilizar o placeholder----*/
 #btn-submit{
     margin-bottom:160px;
-   height: 40px;
-    width: 200px;
+   height: 50px;
+    width: 210px;
+    cursor:pointer;
 }
 
 .cntt-p,#footer-txt{
@@ -226,6 +233,12 @@ margin:0px 125px 0px 125px;
     line-height:15px;
 }
 
+/*---info---*/
+.info-cntt{
+    display:flex;
+    line-height:60px;
+}
+/*---- info----*/
 .ft-icon{
     color:white;
     font-size: 25px;
