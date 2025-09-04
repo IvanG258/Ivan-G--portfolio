@@ -166,17 +166,18 @@ img.tools:hover{
 }
 /****Certifications****/
 .container{
-    width:600px;
+    width:800px;
     overflow:hidden;
     display:flex;
 }
 .image-cert{
-    height:300px;
-    width:600px;
+    height:400px;
+    width:800px;
 
 }
 /*----------Buttons--------*/
 .prev-next{
+    position:absolute;
     background-color:white;
 height:50px;
 width:50px;
@@ -186,6 +187,12 @@ border-radius:50%;
     height:20px;
     width:20px;
 }
+.botoes-prev-next{
+    background-color: aqua;
+    display:flex;
+    justify-content:space-between;
+}
+
 /*--------main---------*/
 
 #mainone{

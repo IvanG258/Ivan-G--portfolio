@@ -9,8 +9,8 @@ menu.forEach((item)=>
     item.addEventListener('click',selecao))
 
 /*------------Estilizacao do slider---------*/
-const Btnprev=document.getElementbyId('prevSlide');
-const Btnnext=document.getElementbyId('nextSlide');
+const prevSlide=document.getElementbyId('prevSlide');
+const nextSlide=document.getElementbyId('nextSlide');
 const container= document.querySelector('.container')
 const {width: containerWidth}=window.getComputedStyle(container)
 
@@ -29,7 +29,7 @@ function setCurrentDot(){
 function controler({target:{id}}){
     const contentLength=content.children.length;
     switch (id) {
-        case 'nextbtn':{
+        case 'nextSlide':{
             if(slideProps.scroll+slideProps.width<parseInt()){
                 slideProps.scroll+= slideProps.width;
             }
@@ -41,7 +41,7 @@ function controler({target:{id}}){
         }
             
             break;
-            case'previous' :{
+            case'prevSlide' :{
                 if(currentSlide>0){
                     currentSlide -=1;
                     setCurrentDot()
@@ -52,7 +52,7 @@ function controler({target:{id}}){
     
         default:
             break;
-            btnNext.addEventListener('click',controler)
-            btnPrev.addEventListener('click', controler)
+            nextSlide.addEventListener('click',controler)
+            prevSlide.addEventListener('click', controler)
     }
 }
