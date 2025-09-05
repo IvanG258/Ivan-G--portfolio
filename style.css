@@ -177,7 +177,6 @@ img.tools:hover{
 }
 /*----------Buttons--------*/
 .prev-next{
-    position:absolute;
     background-color:white;
 height:50px;
 width:50px;
@@ -187,10 +186,9 @@ border-radius:50%;
     height:20px;
     width:20px;
 }
-.botoes-prev-next{
-    background-color: aqua;
+.contentor{
+      position:absolute;
     display:flex;
-    justify-content:space-between;
 }
 
 /*--------main---------*/
