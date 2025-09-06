@@ -137,6 +137,33 @@ a{
 	height:30px;
 
 }
+.dark-grey.Cloud{
+	background-color:#616161;
+    width:600px;
+	height:30px;
+
+}
+.dark-grey.mobile{
+	background-color:#616161;
+    width:450px;
+	height:30px;
+
+}
+.dark-grey.ui-ux{
+	background-color:#616161;
+    width:750px;
+	height:30px;
+
+}
+.dark-grey.db{
+	background-color:#616161;
+    width:800px;
+	height:30px;
+
+}
+
+
+
 
 /*----------tools----------*/
 ul.tools{
